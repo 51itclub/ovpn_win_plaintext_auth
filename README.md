@@ -30,7 +30,8 @@ Python and py2exe are not required to be installed to run this add-on.
 
 **credentials.txt** example:
 
-`"john.doe mypass123"`
+`john.doe mypass123`
+`david.bowie spaceoddity1`
 
 Accepted separator for credential file: space and tab.
 
