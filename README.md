@@ -36,9 +36,11 @@ Python and py2exe are not required to be installed to run this add-on.
 
 **server.ovpn** example:
 
-`# insert this at the end of your openvpn server config`
-`script-security 3`
-`auth-user-pass-verify 'c:\\ovpn-auth\\plainTextAuth.exe' via-file`
+```
+# insert this at the end of your openvpn server config
+script-security 3
+auth-user-pass-verify 'c:\\ovpn-auth\\plainTextAuth.exe' via-file
+```
 
 (Read more on OpenVPN to understand the difference between via-file and via-env)
 
