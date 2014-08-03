@@ -29,13 +29,17 @@ Python and py2exe are not required to be installed to run this add-on.
 ##Details:
 
 **credentials.txt** example:
+
 `"john.doe mypass123"`
+
 (Accepted separator for credential file: space and tab)
 
 **server.ovpn** example:
-`# insert this at the end of your openvpn server config
-`script-security 3
-`auth-user-pass-verify 'c:\\ovpn-auth\\plainTextAuth.exe' via-file
+
+`# insert this at the end of your openvpn server config`
+`script-security 3`
+`auth-user-pass-verify 'c:\\ovpn-auth\\plainTextAuth.exe' via-file`
+
 (Read more on OpenVPN to understand the difference between via-file and via-env)
 
 **To build this add-on**, download py2exe from py2exe.org and follow the instruction how to compile python code into exe binary.
